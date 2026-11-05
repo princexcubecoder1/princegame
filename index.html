@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prince Game</title>
+<style>
+body {
+  background: #101827;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 50px 15px;
+}
+h1 { color: #38bdf8; }
+button {
+  background: #38bdf8;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+<h1>PRINCE GAME</h1>
+<h2>Welcome to my website!</h2>
+<p>My first HTML CSS JavaScript website.</p>
+<button onclick="play()">CLICK HERE</button>
+<h3 id="msg"></h3>
+<script>
+function play() {
+  document.getElementById("msg").innerText =
+  "Website is working successfully!";
+}
+</script>
+</body>
+</html>
